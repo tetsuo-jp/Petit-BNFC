@@ -1,0 +1,10 @@
+PDefs. Program ::= [Stm] ;
+
+separator Stm ";" ;
+
+SAss. Stm  ::= Ident ":=" Exp ;
+SFor. Stm  ::= "for" Exp "times" "do" Stm "end" ;
+
+EZer. Exp  ::= "0" ;
+ESuc. Exp  ::= "suc" Exp ;
+EVar. Exp  ::= Ident ;

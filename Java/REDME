@@ -1,0 +1,3 @@
+* サンプルファイルの実行は，コマンドラインから以下をタイプするとできる
+
+cat ../examples/sum.p | java petit/Interpret
