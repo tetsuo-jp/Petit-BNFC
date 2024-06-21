@@ -11,3 +11,15 @@ Java/petit/parser.java
 Java/petit/petit.cup
 Java/petit/sym.java
 lib/
+
+Haskell/AbsPetit.hs
+Haskell/DocPetit.txt
+Haskell/ErrM.hs
+Haskell/LexPetit.hs
+Haskell/LexPetit.x
+Haskell/ParPetit.hs
+Haskell/ParPetit.y
+Haskell/Petit
+Haskell/PrintPetit.hs
+Haskell/SkelPetit.hs
+Haskell/TestPetit.hs

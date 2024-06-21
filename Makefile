@@ -9,7 +9,7 @@ Java_test: Java/petit/Interpret.class
 	cd Java; cat ../examples/sum.p | java petit/Interpret
 
 Haskell/Petit:
-	cd Haskell; bnfc ../Petit.cf;\
+	cd Haskell; bnfc ../petit.cf;\
 	happy -gca ParPetit.y; alex -g LexPetit.x; ghc --make Petit
 
 Haskell_test: Haskell/Petit
