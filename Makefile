@@ -23,6 +23,6 @@ clean:
 	cd Haskell; make clean
 
 veryclean: clean
-	cd Haskell; rm -f Calc
+	cd Haskell; make distclean; rm -f Petit
 
 .PHONY: Java clean

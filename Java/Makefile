@@ -48,4 +48,4 @@ vclean:
 	 rm -f petit.tex petit.dvi petit.aux petit.log petit.ps
 	 rm -f petit/Yylex petit/petit.cup petit/Yylex.java petit/VisitSkel.java petit/ComposVisitor.java petit/AbstractVisitor.java petit/FoldVisitor.java petit/AllVisitor.java petit/PrettyPrinter.java petit/Skeleton.java petit/Test.java petit/sym.java petit/parser.java petit/*.class
 	rmdir petit/Absyn/
-	rmdir -p petit/
+	# rmdir -p petit/
