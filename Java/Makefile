@@ -22,7 +22,8 @@ absyn: petit/Absyn/Program.java petit/Absyn/PDefs.java petit/Absyn/ListStm.java 
 	${JAVAC} ${JAVAC_FLAGS} $^
 
 petit/Yylex.java: petit/Yylex
-	${JAVA} ${JAVA_FLAGS} ${JLEX} petit/Yylex
+#	${JAVA} ${JAVA_FLAGS} ${JLEX} petit/Yylex
+	jlex petit/Yylex
 
 petit/sym.java petit/parser.java: petit/petit.cup
 	${JAVA} ${JAVA_FLAGS} ${CUP} ${CUPFLAGS} petit/petit.cup

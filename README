@@ -11,5 +11,19 @@
  3. instanceof を使用
 する方法がよく知られている．Java版では，2の方法を用いた．2の効率は3より劣るが，汎用性が高く，解釈に関するソースコードを集められるという利点がある．なお，C#_gplex_gppg では1が用いられている．
 
+Ubuntuでは以下のように環境を整えると良い（2024/06/21現在）．
+```
+sudo apt install bnfc happy alex ghc jlex
+```
+
+codespacesでは以下のように設定すると良い．
+```
+mkdir /workspaces/Petit-BNFC/lib        #この後に java-cup-11b.jar をダウンロードして配置する．
+export CLASSPATH=.:/workspaces/Petit-BNFC/lib/java-cup-11b.jar
+```
+
 [1] BNFC
 http://bnfc.digitalgrammars.com/
+
+[2] Java CUP
+http://www2.cs.tum.edu/projects/cup/index.php

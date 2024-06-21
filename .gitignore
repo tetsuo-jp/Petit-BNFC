@@ -1,3 +1,13 @@
 *.o
 *.hi
-*.classgi
+*.class
+Java/petit/AbstractVisitor.java
+Java/petit/Absyn/
+Java/petit/AllVisitor.java
+Java/petit/Test.java
+Java/petit/Yylex
+Java/petit/Yylex.java
+Java/petit/parser.java
+Java/petit/petit.cup
+Java/petit/sym.java
+lib/
